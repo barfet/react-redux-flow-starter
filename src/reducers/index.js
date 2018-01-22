@@ -1,9 +1,11 @@
 // @flow
-import { combineReducers } from 'redux'
-import counter from './counter'
 
-const rootReducer = combineReducers({
-  counter
-})
+import { combineReducers } from 'redux';
 
-export default rootReducer
+import todos from './todos';
+import visibilityFilter from './visibilityFilter';
+
+export default combineReducers({
+  todos,
+  visibilityFilter
+});

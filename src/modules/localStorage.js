@@ -1,5 +1,4 @@
-// @flow
-export const loadItem = (name: string): JSON => {
+export const loadItem = (name: string): string  => {
     try {
         const serializedItem = localStorage.getItem(name);
         if (serializedItem === null) {
