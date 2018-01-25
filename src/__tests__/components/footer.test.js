@@ -2,9 +2,12 @@
 
 import React from 'react';
 import configureStore from 'redux-mock-store';
-import { shallow } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
 import Footer from '../../components/Footer';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 const setup = (setupProps = {}) => {
   const store = configureStore()();

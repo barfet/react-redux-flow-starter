@@ -1,9 +1,12 @@
 // @flow
 
 import React from 'react';
-import { shallow } from 'enzyme';
+import Enzyme, { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
 import Todo from '../../components/Todo';
+
+Enzyme.configure({ adapter: new Adapter() });
 
 const setup = (setupProps = {}) => {
   const defaultProps = {
