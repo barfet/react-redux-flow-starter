@@ -2,7 +2,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import logo from './logo.svg';
+
 import './App.css';
 
 import Main from './components/Main';
