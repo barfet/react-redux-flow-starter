@@ -1,4 +1,4 @@
-// flow-typed signature: 2aeef068296500e2d527f37cd3a85795
+// flow-typed signature: 02db3523747059d89e87d4dec6873edf
 // flow-typed version: 62a0c60689/enzyme_v3.x.x/flow_>=v0.53.x
 
 import * as React from "react";
