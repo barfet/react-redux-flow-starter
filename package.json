@@ -1,7 +1,18 @@
 {
-  "name": "home",
-  "version": "0.1.0",
-  "private": true,
+  "name": "react-redux-starter",
+  "version": "0.0.1",
+  "main": "./.build/service/handler.js",
+  "description": "Starter for React-Redux development with Flow",
+  "author": "Roman Borysenok",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barfet/react-redux-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/barfet/react-redux-starter/issues"
+  },
+  "homepage": "https://github.com/barfet/react-redux-starter#readme",
   "dependencies": {
     "jest": "^20.0.4",
     "lodash": "^4.17.4",

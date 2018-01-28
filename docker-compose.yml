@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  react-redux-starter:
+    build: .
+    image: react-redux-starter
+    container_name: react-redux-starter
+    volumes:
+      - ./:/usr/src/app
+    ports:
+      - "3000:3000"
+      - "5858:5858"
